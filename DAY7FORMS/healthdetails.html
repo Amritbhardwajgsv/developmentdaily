@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Details Form</title>
+</head>
+<body>
+    <h1>Health Details Form</h1>
+    <form>
+       
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            <br><br>
+            <label for="dob">Date of birth </label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <label for="gender" >Gender</label>
+            <select id ="gender" name="gender" required>
+                <option value="" disabled selected>Select your gender</option>
+                <option value="male " > Male</option>
+                <option value ="female">female</option>
+                <option value="other">Other</option>
+            </select>
+            <br><br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your
+    phone number" required>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Health Information</legend>
+            <label for="bloodtype">Blood Type:</label>
+            <select id="bloodtype" name="bloodtype" required>
+                <option value="" disabled selected>Select your blood type</option>
+                <option value="A+">A+</option>
+                <option value="A-">A-</option>
+                <option value="B+">B+</option>
+                <option value="B-">B-</option>
+                <option value="O+">O+</option>
+                <option value="O-">O-</option>
+                <option value="AB+">AB+</option>
+                <option value="AB-">AB-</option>
+            </select>
+            <br><br>
+
+            <label for="allergies">Allergies:</label>
+            <br>
+
+            <input type="checkbox" id="allergy1" name="allergies" value="pollen">
+            <label for="allergy1">Pollen</label>
+            <br>
+            <input type="checkbox" id="allergy2" name="allergies" value="nuts">
+            <label for="allergy2">Nuts</label>
+        <br>
+            <input type="checkbox" id="allergy3" name="allergies" value="shellfish">
+            <label for="allergy3">Shellfish</label>
+<br>
+<input type="checkbox" id="allergy4" name="allergies" value="none">
+            <label for="allergy4">None</label>
+            <br><br>
+            <label for="medicalhistory">pre existing conditions:</label>
+            <textarea id="medicalhistory" name="medicalhistory" placeholder="Describe your medical history"></textarea>
+            <br><br>
+<label for="medications">Current Medications:</label>
+            <textarea id="medications" name="medications" placeholder="List any current medications"></textarea>
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Emergency Contact</legend>
+            <label for="emergencyname">Emergency Contact Name:</label>
+            <input type="text" id="emergencyname" name="emergencyname" placeholder="Enter emergency contact name" required>
+            <br><br>
+            <label for="emergencyphone">Emergency Contact Phone:</label>
+            <input type="tel" id="emergencyphone" name="emergencyphone" placeholder="Enter emergency contact phone number" required>
+            <br><br>
+</fieldset>
+        <button type="submit">Submit</button>
+</html>
