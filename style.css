@@ -1,0 +1,17 @@
+h2{
+    background-color: aqua;
+    border-width: 10px;
+    border-style:style;
+    border-color:blanchedalmond;
+    padding:20px;
+    border-radius:20px;
+} 
+ul{
+    background-color: pink;
+}
+p{
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    padding: 20px;
+}
