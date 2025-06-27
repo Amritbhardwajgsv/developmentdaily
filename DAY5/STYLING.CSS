@@ -1,0 +1,26 @@
+.first{
+    background-color: aquamarine;
+     color:chartreuse;
+     margin:20px;
+     /* display: inline-block; */
+}
+.second{
+    /* background-color: lightcoral; */
+    color: darkslategray;
+    background-color: lightcyan;
+    margin: 20px;
+    /* display: inline-block; */
+}
+/* block element labels can be given height and width */
+span{
+    /* display: inline-block; */
+    display: inline-block;
+    background-color: lightgoldenrodyellow;
+    color: darkslategray;
+    margin: 50px 20px 50px 20px;   
+    height: 100px;
+    width: 100px;
+}
+/* so inline elements cant have hwight width and etc things  */
+/* we can give horizontal margin to the in line elements and margins bas ham horizintally de sakte hai 
+ */
