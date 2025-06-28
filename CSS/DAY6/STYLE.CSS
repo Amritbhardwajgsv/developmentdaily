@@ -1,0 +1,30 @@
+.container{
+    background-color: blanchedalmond;
+    margin-left: 200px;
+    margin-top:150px;
+}
+.box{
+    height: 100px;
+    width: 100px; 
+    background-color: blue;
+    display: inline-block;
+
+}
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+    /* position: relative;
+    top:30px;
+    left:30px; */
+    position: absolute;
+    /* posotion absolute karne pe box3 gayab ho gaya box2 ke baad sidha box 4 hai  */
+}
+/* static is very much default */
+.box3{
+    background-color: yellow;
+}
+.box4{
+    background-color: purple;
+}

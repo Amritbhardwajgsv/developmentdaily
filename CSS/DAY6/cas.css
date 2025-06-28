@@ -1,0 +1,11 @@
+*{
+    margin:0;
+}
+header{
+    background-color: aquamarine;
+    position:fixed;
+    width:100%;
+}
+main{
+    padding:60px;
+}
