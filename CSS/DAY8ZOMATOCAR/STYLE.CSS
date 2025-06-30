@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+}
+.BOX{
+    display:inline-block;
+}
+.Box{
+    display:inline-block;
+}
+
+.img  {
+    width: auto;
+    height: 200px;
+    border-radius: 25px;
+   
+}
+.card{
+    display:inline-block;
+    margin-left: 10px  ;
+    margin-top: 10px;
+    cursor: pointer;
+    border:10px solid rgb(184, 184, 188);
+
+}
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+.resturant,.food,.address{
+    position: relative;
+    margin-top:10px ;
+    margin-bottom: 10px;
+}
+.rating{
+    background-color: green;
+    height:20px;
+    padding:3px;
+    position:absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.price{
+position:absolute;
+ right:5px;
+}
+.distance{
+ position:absolute;
+ right: 5px;
+}
+.food-name{
+    font-size:15px;
+    font-weight: bold;
+    color:rgb(146, 144, 144)
+}
+.location{
+    font-size: 15px;
+    color: rgb(172, 170, 170);
+}
+.distance{
+    font-weight: bold;
+    font-size: 11px;
+}
+.body{
+    background-color: rgb(184, 184, 188);
+}
+.card:hover{
+ background-color: rgb(255, 255, 255);
+  border-color:white;
+}
+.image{
+    position: relative;
+}
+.off{
+    background-color: rgba(255, 0, 0, 0.5);
+    font-size: 20px;
+
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color: white;
+}
+.first,.second  {
+    margin-left: 200px;
+}
+.brand{
+    color:rgb(207, 9, 9);
+    margin-right: 50px;
+    font-weight: bold;
+}
+.search{
+    width:350px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 250px;
+}
+.searching {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.button {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.image3{
+    height: 70px;
+    width: 70px;
+}
+.diningcontent,
+.nightlifecontent,
+.deliverycontent {
+    position: relative;
+    bottom: 24px;
+    left: 5px;
+    font-size: 20px;
+}
+.delivery{
+    margin-right: 24px;
+}
+.dining{
+    margin-right: 24px;
+    margin-left: 0;
+}
+.third{
+    height: 800px;
+    background-color: rgb(119, 119, 120);
+}
+.second {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-left: 0px;
+    text-align: center;
+}
